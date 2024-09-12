@@ -21,7 +21,7 @@ for root, dirs, files in os.walk(folder):
             with open(file_path, 'wb') as f:
                 with open(image_file, 'rb') as img:
                     f.write(img.read())
-            print(f"Replaced {file_path} with {image_file}")
+            print(f"Replaced {file_path}")
 
 print("")
 input("Press Enter to exit...")
