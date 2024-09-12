@@ -8,6 +8,7 @@ if not os.path.exists(image_file):
     exit()
 
 folder = input("Enter the name of the folder: ")
+print("")
 
 if not os.path.exists(folder):
     print("Error: Folder not found")
@@ -23,5 +24,4 @@ for root, dirs, files in os.walk(folder):
                     f.write(img.read())
             print(f"Replaced {file_path}")
 
-print("")
 input("Press Enter to exit...")
