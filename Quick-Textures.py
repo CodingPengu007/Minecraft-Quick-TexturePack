@@ -1,6 +1,6 @@
 import os
 
-image_file = input("Enter the name of the .png image file: ")
+image_file = input("Enter the name of the template .png - image file: ")
 
 if not os.path.exists(image_file):
     print("Error: File not found")
