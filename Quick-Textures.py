@@ -7,7 +7,7 @@ if not os.path.exists(image_file):
     input("Press Enter to exit...")
     exit()
 
-folder = input("Enter the name of the folder: ")
+folder = input("Enter the name of the texture pack folder: ")
 print("")
 
 if not os.path.exists(folder):
